@@ -1,9 +1,9 @@
 import React from 'react';
 import './Bluepart.css';
 import background from '../assets/vector21.png';
-import blueBox from '../assets/vector (19).png';
+import blueBox from '../assets/Vector (19).png';
 import houseIcon from '../assets/Group 40043.png';
-import musicIcon from '../assets/vector (20).png';
+import musicIcon from '../assets/Vector (20).png';
 import About from "../assets/About.png"
 
 const Bluepart = () => {
