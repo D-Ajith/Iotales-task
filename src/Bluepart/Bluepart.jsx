@@ -1,6 +1,6 @@
 import React from 'react';
 import './Bluepart.css';
-import background from '../assets/vector21.png';
+import background from '/src/assets/vector21.png';
 import blueBox from '../assets/Vector (19).png';
 import houseIcon from '../assets/Group 40043.png';
 import musicIcon from '../assets/Vector (20).png';
