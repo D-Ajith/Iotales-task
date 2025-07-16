@@ -1,26 +1,52 @@
 .navbar {
   position: relative;
-  background-color: white;
+  background: url("../assets/navbarbg.png") center no-repeat;
   padding: 20px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: sans-serif;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  flex-wrap: wrap;
+  min-height: 120px;
 }
 
-.navbar__logo {
-  font-weight: bold;
-  font-size: 1.2rem;
+.navbar__logo img {
+  max-width: 140px;
 }
 
+/* Right section for icons + toggle */
+.navbar__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Icons group */
+.navbar__icons {
+  display: flex;
+  gap: 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+/* Menu toggle button */
+.menu-toggle {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Navigation menu */
 .navbar__menu {
   display: flex;
   gap: 30px;
-  flex: 1;
+  flex: 1 1 100%;
   justify-content: center;
+  transition: all 0.3s ease-in-out;
 }
 
+/* Navigation links */
 .navbar__menu a {
   text-decoration: none;
   color: black;
@@ -34,10 +60,50 @@
   border-radius: 20px;
 }
 
-.navbar__icons {
-  display: flex;
-  gap: 20px;
-  font-size: 1.1rem;
-  cursor: pointer;
-}
+/* === Responsive Styles === */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+  }
 
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 15px;
+    gap: 12px;
+  }
+
+  .navbar__menu.active {
+    display: flex;
+  }
+
+  .navbar__menu a {
+    width: 100%;
+    font-size: 1rem;
+    padding: 6px 12px;
+    border: none;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 20px;
+  }
+
+  .navbar__right {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .navbar__icons {
+    gap: 16px;
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    min-height: 120px;
+  }
+}

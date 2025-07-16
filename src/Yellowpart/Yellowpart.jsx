@@ -9,7 +9,7 @@ import stars from '../assets/Group (5).png';
 import cardTopImage from '../assets/Group 40091.png';
 import arrowBg from '../assets/Vector (22).png';
 import Thumpsup from "../assets/Thumpsup.png"
-
+import Cloud from "../assets/yellowblueclouds.png"
 
 const Yellowpart = () => {
     const cards = [
@@ -36,13 +36,19 @@ const Yellowpart = () => {
     ];
 
     return (
+       <>
+               <img src={Cloud} alt="top wave" style={{ width: '100%', display: 'block', marginBottom: '-20px' }} />
         <div
             className="yellowpart-container"
             style={{ backgroundImage: `url(${bg})` }}
             id="testimonials"
         >
             <div className="yellowpart-heading">
-                <div className="thumb-icon"><img src={Thumpsup} alt=""/></div>
+                <div className="thumb-icon"><img src={Thumpsup} alt="bow"style={{
+                    width: '200px',
+                    height: 'auto',
+                    display: 'block',
+                    margin: '0 auto'}}/></div>
                 <h2>HEADING GOES HERE</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur. Purus vulputate leo malesuada ut euismod. Nulla
@@ -84,6 +90,7 @@ const Yellowpart = () => {
             </div>
 
         </div>
+       </>
     );
 };
 

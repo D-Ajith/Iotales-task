@@ -43,7 +43,7 @@ const Purplepart = () => {
     
     <>
 
-  <img src={topwave} alt="top wave" style={{ width: '100%', display: 'block', marginBottom: '-5px' }} />
+  <img src={topwave} alt="top wave" style={{ width: '100%', display: 'block', marginTop: '-30px' }} />
 
     <div
       className="purplepart-container"

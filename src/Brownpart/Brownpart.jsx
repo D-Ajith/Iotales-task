@@ -43,7 +43,7 @@ const blogs = [
 const Brownpart = () => {
   return (
 <>
-  <img src={Redwave} alt="top wave" style={{ width: '100%', display: 'block', marginBottom: '-5px' }} />
+  <img src={Redwave} alt="top wave" style={{ width: '100%', display: 'block', marginTop: '-30px' }} />
     <div
       className="brownpart-container"
       style={{ backgroundImage: `url(${bg})` }}

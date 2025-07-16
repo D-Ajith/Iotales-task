@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 
 .darkgreenpart-container {
+  background-image: url('../assets/purplegreen.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -19,8 +20,8 @@
 .darkgreenpart-heading p {
   max-width: 700px;
   margin: 0 auto;
-  font-size: 18px; /* Increased from 14px */
-  line-height: 1.8; /* Optional: more spacing for better readability */
+  font-size: 18px; 
+  line-height: 1.8; 
 }
 
 .yellow-line {
@@ -37,16 +38,16 @@
   background-position: center;
   margin: 40px auto;
   max-width: 700px;
-  height: 160px; /* Slightly taller to match font and logo size */
+  height: 160px; 
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 0 40px; /* More spacing inside */
+  padding: 0 40px; 
   border-radius: 30px;
 }
 
 .brand-logo {
-  width: 120px; /* Slightly bigger logos */
+  width: 120px; 
   height: auto;
   object-fit: contain;
 }
@@ -62,4 +63,29 @@
   display: flex;
   gap: 12px;
   justify-content: center;
+}
+
+.brand-logo {
+  width: 100px;
+  height: auto;
+}
+
+@media screen and (max-width: 450px) {
+  .brand-logo {
+    width: 60px;
+  }
+
+  .divider {
+    height: 40px; 
+  }
+}
+
+@media screen and (max-width: 200px) {
+  .brand-logo {
+    width: 40px;
+  }
+
+  .divider {
+    height: 30px; 
+  }
 }

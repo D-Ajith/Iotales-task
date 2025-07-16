@@ -48,10 +48,15 @@ const products = [
 export default function Orangepart() {
     return (
         <div id="Orangepart">
-          <img src={Bow} alt="bow" style={{ width: '100px', height: 'auto' }} />
+            <img src={Bow} alt="bow" style={{
+                width: '100px',
+                height: 'auto',
+                display: 'block',
+                margin: '0 auto'
+            }} />
 
             <img src={musicWhite} id="Orangepart-music" alt="music" />
-            
+
             <h2 id="Orangepart-heading">Lorem Ipsum Dolor Sit Amet</h2>
             <p id="Orangepart-desc">
                 Lorem ipsum dolor sit amet consectetur. Adipiscing ad scelerisque nulla

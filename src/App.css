@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,72 @@
 
 .read-the-docs {
   color: #888;
+} */
+ /* === RESET STYLES TO PREVENT OVERFLOW === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === PREVENT HORIZONTAL SCROLL === */
+html, body {
+  width: 100%;
+  overflow-x: hidden; /* ❗ Core fix */
+  font-family: sans-serif;
+}
+
+.app-container {
+  width: 100%;
+  overflow-x: hidden; /* Ensures nested components don't overflow */
+}
+
+/* === IMAGES DON’T CAUSE SCROLL === */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* === SECTIONS ADAPT TO SCREEN WIDTH === */
+section {
+  width: 100%;
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+
+/* === FLEX CONTAINERS MUST WRAP ON SMALL SCREENS === */
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* === MEDIA QUERIES FOR RESPONSIVE TEXT AND PADDING === */
+@media (max-width: 992px) {
+  section {
+    padding: 40px 16px;
+  }
+
+  h1, h2 {
+    font-size: 1.7rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    padding: 30px 12px;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
 }

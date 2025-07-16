@@ -183,3 +183,120 @@
   color: white;
   cursor: pointer;
 }
+/* ---------- RESPONSIVE STYLES ---------- */
+
+@media screen and (max-width: 1024px) {
+  .circle-wrapper {
+    width: 80%;
+  }
+
+  .heading {
+    width: 60%;
+  }
+
+  .subheading {
+    font-size: 0.95rem;
+    max-width: 90%;
+  }
+
+  .product-img {
+    width: 200px;
+  }
+
+  .description {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu-buttons {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .menu-btn {
+    min-width: 90px;
+    font-size: 0.85rem;
+    padding: 8px 16px;
+  }
+
+  .product-img {
+    width: 180px;
+  }
+
+  .shadow-label {
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+
+  .price-tag {
+    top: 5px;
+    right: -20px;
+    width: 60px;
+    height: 60px;
+  }
+
+  #pink-arrow-left,
+  #pink-arrow-right {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+  }
+
+  .description h2 {
+    font-size: 1rem;
+  }
+
+  .description p {
+    font-size: 0.85rem;
+  }
+
+  .shop-now {
+    font-size: 0.9rem;
+    padding: 8px 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .heading {
+    width: 80%;
+  }
+
+  .subheading {
+    font-size: 0.85rem;
+  }
+
+  .product-img {
+    width: 150px;
+  }
+
+  .shadow-label {
+    font-size: 1.5rem;
+  }
+
+  .price-tag {
+    width: 50px;
+    height: 50px;
+    right: 0;
+  }
+
+  #pink-arrow-left,
+  #pink-arrow-right {
+    width: 30px;
+    height: 30px;
+    font-size: 0.9rem;
+  }
+
+  .description h2 {
+    font-size: 0.9rem;
+  }
+
+  .description p {
+    font-size: 0.8rem;
+  }
+
+  .shop-now {
+    font-size: 0.85rem;
+    padding: 6px 16px;
+  }
+}

@@ -1,13 +1,15 @@
 import React from 'react';
 import './Bluepart.css';
-import background from '/src/assets/vector21.png';
+import background from '../assets/vector21.png';
 import blueBox from '../assets/Vector (19).png';
 import houseIcon from '../assets/Group 40043.png';
 import musicIcon from '../assets/Vector (20).png';
 import About from "../assets/About.png"
-
+import orangeblue from "../assets/orangeblue.png"
 const Bluepart = () => {
   return (
+<>
+  <img src={orangeblue} alt="top wave" style={{ width: '100%', display: 'block', marginBottom: '-5px' }} />
     <div
       id="about"
       className="bluepart-container"
@@ -48,6 +50,7 @@ const Bluepart = () => {
       </div>
       
     </div>
+</>
   );
 };
 

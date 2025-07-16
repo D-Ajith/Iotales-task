@@ -8,8 +8,17 @@ import scrollDash from '../assets/Vector (36).png';
 import darkscroll from "../assets/Vector (37).png"
 import Firstcry from "../assets/Firstcry.png"
 import Hamleys from "../assets/Hamleys.png"
+import purplegreen from "../assets/purplegreen.png"
 const Darkgreenpart = () => {
     return (
+      <>
+        <img
+  src={purplegreen}
+  alt="top wave"
+  className="purplegreen-img"
+  style={{ width: '100%', display: 'block', marginTop: '-20px' }}
+/>
+
         <div className="darkgreenpart-container" style={{ backgroundImage: `url("${bg}")` }}>
             <div className="darkgreenpart-heading">
                 <h2>LOREM IPSUM DOLOR SIT</h2>
@@ -34,6 +43,7 @@ const Darkgreenpart = () => {
                    <img src={darkscroll} alt="scroll dash" />
             </div>
         </div>
+      </>
     );
 };
 

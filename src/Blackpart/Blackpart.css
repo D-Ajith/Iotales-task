@@ -1,4 +1,4 @@
-.blackpart {
+ .blackpart {
   background-image: url('../assets/Group (10).png'), url('../assets/Vector (42).png');
   background-repeat: no-repeat, no-repeat;
   background-position: top left, center;
@@ -14,60 +14,86 @@
   align-items: center;
   padding: 120px 0;
 }
-
-.craft-text {
-  max-width: 550px;
-  width: 100%;
-}
-
+ 
 .footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: flex-start;
-  padding-top: 60px;
-  border-top: 1px solid #444;
-  gap: 40px;
+  padding: 60px 40px 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: white;
+  background-color: transparent;
 }
 
 .subscribe-section {
-  flex: 1 1 300px;
-  min-width: 260px;
+  flex: 1 1 250px;
+  margin-bottom: 30px;
 }
 
 .subscribe-section h3 {
-  font-size: 1.3rem;
-  line-height: 1.6;
+  font-family: 'Comic Sans MS', 'Baloo Bhai 2', cursive;
+  font-size: 1.2rem;
+  font-weight: 600;
   margin-bottom: 10px;
+  color: white;
 }
 
 .subscribe-section p {
   font-size: 0.85rem;
+  color: #aaa;
   line-height: 1.4;
-  color: #ccc;
+  margin-bottom: 15px;
 }
 
 .subscribe-btn {
-  margin-top: 20px;
-  padding: 10px 30px;
-  background-color: #00d26a;
+  background-color: #27ce60;
   color: white;
-  font-weight: bold;
   border: none;
-  border-radius: 30px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-weight: bold;
   cursor: pointer;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
 }
 
-.menu-icons {
-  flex: 2 1 500px;
+.subscribe-btn:hover {
+  background-color: #1fae50;
+}
+
+.footer-links {
+  flex: 3 1 600px;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 40px;
+  justify-content: space-between;
+  gap: 20px;
 }
 
-.menu-block img {
-  height: 140px;
-  object-fit: contain;
+.link-block {
+  flex: 1 1 130px;
+  display: flex;
+  flex-direction: column;
+}
+
+.link-block h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #ccc;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.link-block a {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.75rem;
+  color: #888;
+  text-decoration: none;
+  margin-bottom: 8px;
+  transition: color 0.2s ease;
+}
+
+.link-block a:hover {
+  color: #fff;
 }

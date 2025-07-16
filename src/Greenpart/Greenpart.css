@@ -243,3 +243,111 @@
   width: 70px;
   height: auto;
 }
+
+/* === General Responsive Layout Fixes === */
+@media (max-width: 992px) {
+  .green-content {
+    padding: 30px 20px;
+    max-width: 90%;
+  }
+
+  .green-content p {
+    font-size: 0.95rem;
+  }
+
+  .shop-btn {
+    padding: 12px 24px;
+    font-size: 0.9rem;
+  }
+
+  .left-img-symbol,
+  .right-img-symbol {
+    width: 60px;
+    top: 100px;
+  }
+
+  .text-center-img {
+    max-width: 80%;
+  }
+
+  .left-top-symbol {
+    left: -25%;
+  }
+
+  .left-top-symbol img {
+    width: 80px;
+  }
+
+  .cloud-img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .green-content {
+    padding: 20px 16px;
+    max-width: 95%;
+  }
+
+  .green-content p {
+    font-size: 0.9rem;
+    max-width: 100%;
+  }
+
+  .shop-btn {
+    padding: 10px 20px;
+    font-size: 0.85rem;
+  }
+
+  .left-img-symbol,
+  .right-img-symbol {
+    width: 45px;
+    top: 80px;
+  }
+
+  .text-center-img {
+    max-width: 90%;
+  }
+
+  .left-top-symbol {
+    left: -18%;
+  }
+
+  .left-top-symbol img {
+    width: 60px;
+  }
+
+  .cloud-container {
+    flex-direction: column;
+    bottom: -20%;
+  }
+
+  .left-clouds {
+    flex-direction: column;
+  }
+
+  .green-left-arrow,
+  .green-right-arrow {
+    padding: 10px;
+    font-size: 1rem;
+  }
+
+  .green-left-arrow {
+    left: 5px;
+  }
+
+  .green-right-arrow {
+    right: 5px;
+  }
+
+  .edges {
+    left: -10%;
+    right: -10%;
+    padding: 0;
+  }
+
+  .left-edge-symbol,
+  .right-edge-symbol {
+    width: 50px;
+  }
+}
