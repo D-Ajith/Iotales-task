@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.darkgreenpart-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 20px;
+  font-family: 'Patrick Hand', cursive;
+  color: white;
+  text-align: center;
+}
+
+.darkgreenpart-heading h2 {
+  font-size: 40px; /* Increased from 30px */
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.darkgreenpart-heading p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 18px; /* Increased from 14px */
+  line-height: 1.8; /* Optional: more spacing for better readability */
+}
+
+.yellow-line {
+  height: 6px;
+  width: 90px;
+  background-color: #ffd700;
+  margin: 25px auto;
+  border-radius: 3px;
+}
+
+.brand-showcase {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 40px auto;
+  max-width: 700px;
+  height: 160px; /* Slightly taller to match font and logo size */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 40px; /* More spacing inside */
+  border-radius: 30px;
+}
+
+.brand-logo {
+  width: 120px; /* Slightly bigger logos */
+  height: auto;
+  object-fit: contain;
+}
+
+.divider {
+  width: 1.5px;
+  height: 90px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.scroll-dash {
+  margin-top: 35px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}

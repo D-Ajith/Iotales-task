@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Patrick+Hand&display=swap');
+
+#Orangepart {
+  background-color: #ff6a00;
+  padding: 50px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#Orangepart-heading {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+#Orangepart-heading {
+  font-family: 'Patrick Hand', cursive;
+}
+
+#Orangepart-desc,
+#Orangepart-cards p {
+  font-family: 'Patrick Hand', cursive;
+}
+
+#Orangepart-desc {
+  color: white;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-size: 14px;
+}
+
+#Orangepart-music {
+  position: absolute;
+  top: 50px;
+  right: 80px;
+  width: 24px;
+}
+
+/* Card Layout */
+#Orangepart-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Each card */
+#card1, #card2, #card3, #card4 {
+  width: 180px;
+  height: 370px;
+  position: relative;
+  border-radius: 26px;
+  overflow: hidden;
+}
+
+#card1-bg, #card2-bg, #card3-bg, #card4-bg {
+  position: absolute;
+  width: 130%;
+  height: 110%;
+  top: -5%;     
+  left: -5%;    
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Heart overlay */
+#card1-heart, #card2-heart, #card3-heart, #card4-heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  z-index: 3;
+}
+
+/* Clip images */
+#card1-img, #card2-img, #card3-img, #card4-img {
+  position: absolute;
+  width: 90%;
+  top: 25px;
+  left: 5%;
+  z-index: 2;
+  border-radius: 20px;
+}
+
+/* Info & Button */
+#card1-info, #card2-info, #card3-info, #card4-info {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  z-index: 4;
+  color: white;
+  text-align: center;
+}
+
+#card1-info p,
+#card2-info p,
+#card3-info p,
+#card4-info p {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+#card1-info h4,
+#card2-info h4,
+#card3-info h4,
+#card4-info h4 {
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+#card1-btn, #card2-btn, #card3-btn, #card4-btn {
+  background-color: #00bf63;
+  color: white;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Wrapper that holds arrows and cards */
+#Orangepart-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+/* Card layout stays the same */
+#Orangepart-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Arrows: positioned absolutely at vertical center of card section */
+.arrow-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+/* Arrow background */
+.arrow-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Arrow symbol centered in the image */
+.arrow-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white; /* Make arrow white */
+  font-size: 20px;
+  font-weight: bold;
+  pointer-events: none;
+}
+
+/* Specific arrow sides */
+.left-arrow {
+  left:20%;
+}
+
+.right-arrow {
+  right: 20%;
+}
+
+
+/* View More */
+#Orangepart-viewmore-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+#Orangepart-viewmore-bg {
+  width: 140px;
+  height: 40px;
+}
+
+#Orangepart-viewmore {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  border: none;
+  background: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+}

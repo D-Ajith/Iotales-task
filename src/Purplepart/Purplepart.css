@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+.top-wave {
+  display: block;
+  margin-bottom: -10px; /* pulls wave into purple background slightly */
+}
+.purplepart-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 100px 30px;
+  font-family: 'Patrick Hand', cursive;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.purplepart-heading h3 {
+  font-size: 20px;
+  color: #ffc107;
+}
+
+.purplepart-heading h2 {
+  font-size: 32px;
+  color: #ffffff;
+  margin: 10px 0;
+}
+
+.purplepart-heading p {
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto 10px;
+}
+
+.green-line {
+  height: 5px;
+  width: 80px;
+  background-color: #6dc12a;
+  margin: 15px auto;
+  border-radius: 3px;
+}
+
+/* Decorations */
+.purplepart-decor .center-arrow {
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+}
+
+.left-brace {
+  position: absolute;
+  top: 90px;
+  left: 20px;
+  width: 30px;
+}
+
+.right-brace {
+  position: absolute;
+  top: 90px;
+  right: 20px;
+  width: 30px;
+}
+
+.faq-form {
+  max-width: 750px;
+  margin: 40px auto 0;
+  padding: 60px 30px 30px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.pin-icon {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+}
+
+.faq-item {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.faq-question {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 14px 20px;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-answer {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 15px 20px;
+  font-size: 13px;
+  color: white;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+/* View more button */
+.faq-view-more {
+  margin-top: 30px;
+  background-color: #e03a95;
+  padding: 12px 30px;
+  display: inline-block;
+  color: white;
+  font-size: 16px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}

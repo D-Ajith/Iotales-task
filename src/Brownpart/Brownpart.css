@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+.brownpart-container {
+  background-size: cover;
+  background: url('../assets/Vector (38).png') no-repeat center/cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px 20px;
+  font-family: 'Patrick Hand', cursive;
+  text-align: center;
+  color: white;
+}
+
+.brownpart-heading h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.brownpart-heading .our {
+  color: white;
+  font-size: 24px;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+.brownpart-heading p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.blog-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+  position: relative;
+}
+
+.arrow {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+   background: url('../assets/Vector (41).png') no-repeat center/cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+.blog-cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px;
+}
+
+.blog-card {
+  /* Do NOT put background-image or background here */
+  background: url('../assets/vector (40).png') no-repeat center/cover;
+
+  width: 220px;
+  min-width: 220px;
+  padding: 15px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+
+.blog-card img {
+  width: 100%;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.blog-card h4 {
+  font-size: 14px;
+  margin: 10px 0 5px;
+  white-space: pre-line;
+}
+
+.blog-card p {
+  font-size: 12px;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.blog-card button {
+  border: none;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+.blogs-text {
+  color: #FFD700; /* Yellow */
+}
+.brownpart-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.brownpart-heading img {
+  max-width: 100%;
+  width: 420px;
+  height: auto;
+}

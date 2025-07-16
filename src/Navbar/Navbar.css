@@ -1,0 +1,43 @@
+.navbar {
+  position: relative;
+  background-color: white;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.navbar__logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar__menu {
+  display: flex;
+  gap: 30px;
+  flex: 1;
+  justify-content: center;
+}
+
+.navbar__menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+}
+
+.navbar__menu a:first-child {
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+.navbar__icons {
+  display: flex;
+  gap: 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+

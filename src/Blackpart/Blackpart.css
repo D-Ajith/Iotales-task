@@ -1,0 +1,73 @@
+.blackpart {
+  background-image: url('../assets/Group (10).png'), url('../assets/Vector (42).png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, center;
+  background-size: contain, cover;
+  color: white;
+  padding: 60px 20px;
+  font-family: 'Patrick Hand', cursive;
+  position: relative;
+}
+.center-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.craft-text {
+  max-width: 550px;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 60px;
+  border-top: 1px solid #444;
+  gap: 40px;
+}
+
+.subscribe-section {
+  flex: 1 1 300px;
+  min-width: 260px;
+}
+
+.subscribe-section h3 {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.subscribe-section p {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  color: #ccc;
+}
+
+.subscribe-btn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: #00d26a;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.menu-icons {
+  flex: 2 1 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.menu-block img {
+  height: 140px;
+  object-fit: contain;
+}
